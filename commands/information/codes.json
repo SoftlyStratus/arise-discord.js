@@ -1,0 +1,42 @@
+{
+    "activeCodes": [
+      {
+        "code": "BETA",
+        "reward": "250 Cash"
+      },
+      {
+        "code": "UPDATE",
+        "reward": "100 tickets"
+      },
+      {
+        "code": "RUNES",
+        "reward": "3x Rank Up Runes"
+      },
+      {
+        "code": "DRAGONBLUE",
+        "reward": "Blue Dragon, Exclusive Flying Mount"
+      }
+    ],
+    "exclusiveCodes": [
+      {
+        "code": "AlphaTester",
+        "reward": "",
+        "condition": "Must have participated in the Alpha Test"
+      },
+      {
+        "code": "TESTERQA",
+        "reward": "",
+        "condition": "For Quality Assurance Testers"
+      },
+      {
+        "code": "TESTER",
+        "reward": "",
+        "condition": "General Tester Code"
+      },
+      {
+        "code": "CCTESTER",
+        "reward": "",
+        "condition": "Content Creator Reward"
+      }
+    ]
+  }

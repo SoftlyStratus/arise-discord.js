@@ -1,0 +1,234 @@
+{
+  "islands": {
+    "Leveling City": [
+      {
+        "name": "Soondoo",
+        "imageUrl": "https://trello.com/1/cards/67c788ca4644b4232859cfc8/attachments/67c789b8d8a4b16377f8cc11/download/Screenshot_2025-03-04_002738.png",
+        "obtainLocation": "Leveling City",
+        "rarity": "Common",
+        "dpsRange": "5 - 2.93B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Gonshee",
+        "imageUrl": "https://trello.com/1/cards/67c788e7aafd1885ac0ea2d5/attachments/67c78b151afc483be916d970/download/Screenshot_2025-03-04_002715.png",
+        "obtainLocation": "Leveling City",
+        "rarity": "Common",
+        "dpsRange": "7 - 4.11B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Daek",
+        "imageUrl": "https://trello.com/1/cards/67c788f43031f3bc5ad6c585/attachments/67c78c8fe340bdaf2ac9254a/download/Screenshot_2025-03-04_002432.png",
+        "obtainLocation": "Leveling City",
+        "rarity": "Common",
+        "dpsRange": "11 - 6.45B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Longin",
+        "imageUrl": "https://trello.com/1/cards/67c788f94e3fec3ebe682ca1/attachments/67c78cb3d93d9719daec3870/download/Screenshot_2025-03-04_002445.png",
+        "obtainLocation": "Leveling City",
+        "rarity": "Common",
+        "dpsRange": "16 - 9.39B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Anders",
+        "imageUrl": "https://trello.com/1/cards/67c789094fe61346d17e5c18/attachments/67c78e37f550293fa15cd338/download/Screenshot_2025-03-04_002553.png",
+        "obtainLocation": "Leveling City",
+        "rarity": "Common",
+        "dpsRange": "25 - 14.67B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Largalgan",
+        "imageUrl": "https://trello.com/1/cards/67c78911b5ef57e3f4d485ab/attachments/67c79061cfce13670f351285/download/Screenshot_2025-03-04_002625.png",
+        "obtainLocation": "Leveling City",
+        "rarity": "Common",
+        "dpsRange": "37 - 21.71B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Monarch",
+        "imageUrl": null,
+        "obtainLocation": "Double Dungeon",
+        "rarity": "Legendary",
+        "dpsRange": "475 - 3.08T",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Vermillion",
+        "imageUrl": "https://trello.com/1/cards/67c78925f9e81b636deb6fff/attachments/67c7a5f186bb0afbdaaa923a/download/Screenshot_2025-03-04_181547.png",
+        "obtainLocation": "Leveling City Dungeon",
+        "rarity": "Epic",
+        "dpsRange": "111 - 65.13B",
+        "obtainable": "✅"
+      }
+    ],
+    "Grass Village": [
+      {
+        "name": "Snake Man",
+        "imageUrl": "https://trello.com/1/cards/67c789294f9939318ed9e953/attachments/67c7a67b55189d76863937a4/download/Screenshot_2025-03-04_181848.png",
+        "obtainLocation": "Grass Village",
+        "rarity": "Common",
+        "dpsRange": "43 - 25.23B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Blossom",
+        "imageUrl": "https://trello.com/1/cards/67c7892d049243f2a59feed5/attachments/67c7a775be1ffe21f98353ed/download/Screenshot_2025-03-04_182208.png",
+        "obtainLocation": "Grass Village",
+        "rarity": "Common",
+        "dpsRange": "51 - 29.92B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Black Crow",
+        "imageUrl": "https://trello.com/1/cards/67c78936cca69d54329fbca3/attachments/67c7a81a99636e95e41ae02f/download/image.png",
+        "obtainLocation": "Grass Village",
+        "rarity": "Common",
+        "dpsRange": "64 - 37.55B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Dor",
+        "imageUrl": "https://trello.com/1/cards/67c789759c7837e5a92da169/attachments/67c8728cea58211bec022d00/download/image.png",
+        "obtainLocation": "Grass Village Dungeon",
+        "rarity": "Epic",
+        "dpsRange": "192 - 112.66B",
+        "obtainable": "✅"
+      }
+    ],
+    "Brum Island": [
+      {
+        "name": "Shark Man",
+        "imageUrl": "https://trello.com/1/cards/67c78991187868f4fa92cfcd/attachments/67c7b2a8f2b200738da58967/download/Screenshot_2025-03-04_191020.png",
+        "obtainLocation": "Brum Island",
+        "rarity": "Common",
+        "dpsRange": "72 - 42.25B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Eminel",
+        "imageUrl": "https://trello.com/1/cards/67c789a542dd168bf699880f/attachments/67c7b33152126fad666ac0ba/download/Screenshot_2025-03-04_191259.png",
+        "obtainLocation": "Brum Island",
+        "rarity": "Common",
+        "dpsRange": "89 - 52.22B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Light Admiral",
+        "imageUrl": "https://trello.com/1/cards/67c789a981b01c24bfa53da0/attachments/67c7b4293cd3f7512a47f01a/download/image.png",
+        "obtainLocation": "Brum Island",
+        "rarity": "Common",
+        "dpsRange": "100 - 58.67B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Mifalcon",
+        "imageUrl": "https://trello.com/1/cards/67c789b05bf66e7bc33ade7c/attachments/67c8e31f5f292471707a83ba/download/Screenshot_2025-03-05_164912.png",
+        "obtainLocation": "Brum Island Dungeon",
+        "rarity": "Epic",
+        "dpsRange": "300 - 176.02B",
+        "obtainable": "✅"
+      }
+    ],
+    "Faceheal Town": [
+      {
+        "name": "Luryu",
+        "imageUrl": "https://trello.com/1/cards/67cc8b48e90d9ff226f555ed/attachments/67cc8c36ef9d53cb00338376/download/image.png",
+        "obtainLocation": "Faceheal Town",
+        "rarity": "Common",
+        "dpsRange": "118 - 69.24B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Fyakuya",
+        "imageUrl": "https://trello.com/1/cards/67cc8b4f24a32a1052595a07/attachments/67cc8cc33985c984a8b2938f/download/image.png",
+        "obtainLocation": "Faceheal Town",
+        "rarity": "Common",
+        "dpsRange": "132 - 77.45B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Genji",
+        "imageUrl": "https://trello.com/1/cards/67cc8b431cfc0a9b7e00c0f7/attachments/67cc8b64af89db6614c45778/download/image.png",
+        "obtainLocation": "Faceheal Town",
+        "rarity": "Common",
+        "dpsRange": "150 - 88.01B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Murcielago",
+        "imageUrl": "https://trello.com/1/cards/67cc8b5b22e5fb353af0d066/attachments/67ce0a1c74428c622e4eeeb0/download/image.png",
+        "obtainLocation": "Faceheal Town Dungeon",
+        "rarity": "Epic",
+        "dpsRange": "450 - 264.04B",
+        "obtainable": "✅"
+      }
+    ],
+    "Lucky Kingdom": [
+      {
+        "name": "Sortudo",
+        "imageUrl": null,
+        "obtainLocation": "Lucky Kingdom",
+        "rarity": "Common",
+        "dpsRange": "193 - 113.24B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Michille",
+        "imageUrl": null,
+        "obtainLocation": "Lucky Kingdom",
+        "rarity": "Common",
+        "dpsRange": "212 - 124.39B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Wind",
+        "imageUrl": null,
+        "obtainLocation": "Lucky Kingdom",
+        "rarity": "Common",
+        "dpsRange": "265 - 155.49B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Time King",
+        "imageUrl": null,
+        "obtainLocation": "Lucky Kingdom Dungeon",
+        "rarity": "Epic",
+        "dpsRange": "600 - 352.05B",
+        "obtainable": "✅"
+      }
+    ]
+  },
+  "events": {
+    "Dedu Island": [
+      {
+        "name": "Ant Soldier",
+        "imageUrl": "https://trello.com/1/cards/67d67baac9c5aa5538087b04/attachments/67d67baac9c5aa5538087bb0/download/ant.png",
+        "obtainLocation": "Dedu Island",
+        "rarity": "Common",
+        "dpsRange": "41 - 24.06B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Ant Queen",
+        "imageUrl": "https://trello.com/1/cards/67d67b8af9e42898a2bb25d1/attachments/67d67b8af9e42898a2bb267b/download/queen.png",
+        "obtainLocation": "Dedu Island",
+        "rarity": "Epic",
+        "dpsRange": "152 - 89.19B",
+        "obtainable": "✅"
+      },
+      {
+        "name": "Ziru",
+        "imageUrl": "https://trello.com/1/cards/67d67b83e7bf3b96e672c2b1/attachments/67d67b83e7bf3b96e672c365/download/ziru.png",
+        "obtainLocation": "Dedu Island",
+        "rarity": "Legendary",
+        "dpsRange": "293.37B - 3.24T",
+        "obtainable": "✅"
+      }
+    ]
+  }
+}
