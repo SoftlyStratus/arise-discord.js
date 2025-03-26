@@ -2,7 +2,7 @@
   {
     "options": [],
     "name": "setup",
-    "description": "Setup the dungeon notifications channel",
+    "description": "Setup the dungeon notifications channel for this guild",
     "type": 1
   },
   {

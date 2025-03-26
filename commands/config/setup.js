@@ -5,7 +5,7 @@ const path = require('node:path');
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('setup')
-    .setDescription('Setup the dungeon notifications channel'),
+    .setDescription('Setup the dungeon notifications channel for this guild'),
   
   async execute(interaction) {
     // Create a channel select menu for text channels.
@@ -32,7 +32,7 @@ module.exports = {
       const selectedChannelId = i.values[0]; // Selected channel id
 
       // Define path to the persistent configuration file.
-      const configPath = path.join(__dirname, '..', 'data', 'config.json');
+      const configPath = path.join(__dirname, '..', '..', 'data', 'config.json');
       let config = {};
       
       // Read existing config if available.
@@ -45,8 +45,13 @@ module.exports = {
         }
       }
       
-      // Update the config with the selected channel id.
-      config.dungeonChannel = selectedChannelId;
+      // Ensure the guilds configuration exists.
+      if (!config.guilds) {
+        config.guilds = {};
+      }
+      
+      // Update the config with the selected channel id for this guild.
+      config.guilds[interaction.guild.id] = selectedChannelId;
       
       // Ensure the directory exists.
       const configDir = path.dirname(configPath);
@@ -57,7 +62,7 @@ module.exports = {
       // Save the updated config back to the file.
       fs.writeFileSync(configPath, JSON.stringify(config, null, 2), { encoding: 'utf8' });
       
-      await i.update({ content: `Dungeon notifications channel set to <#${selectedChannelId}>.`, components: [] });
+      await i.update({ content: `Dungeon notifications channel set to <#${selectedChannelId}> for this guild.`, components: [] });
       collector.stop();
     });
     
