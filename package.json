@@ -12,5 +12,13 @@
   "dependencies": {
     "discord.js": "^14.18.0",
     "dotenv": "^16.4.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftlyStratus/arise-discord.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SoftlyStratus/arise-discord.js/issues"
+  },
+  "homepage": "https://github.com/SoftlyStratus/arise-discord.js#readme"
 }

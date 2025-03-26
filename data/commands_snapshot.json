@@ -1,0 +1,107 @@
+[
+  {
+    "options": [],
+    "name": "setup",
+    "description": "Setup the dungeon notifications channel",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "codes",
+    "description": "Shows active and exclusive reward codes with their rewards and conditions.",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 3,
+        "choices": [
+          {
+            "name": "Leveling City",
+            "value": "Leveling City"
+          },
+          {
+            "name": "Grass Village",
+            "value": "Grass Village"
+          },
+          {
+            "name": "Brum Island",
+            "value": "Brum Island"
+          },
+          {
+            "name": "Faceheal Town",
+            "value": "Faceheal Town"
+          },
+          {
+            "name": "Lucky Kingdom",
+            "value": "Lucky Kingdom"
+          }
+        ],
+        "name": "name",
+        "description": "The name of the dungeon.",
+        "required": true
+      },
+      {
+        "type": 3,
+        "choices": [
+          {
+            "name": "S",
+            "value": "S"
+          },
+          {
+            "name": "A",
+            "value": "A"
+          },
+          {
+            "name": "B",
+            "value": "B"
+          },
+          {
+            "name": "C",
+            "value": "C"
+          },
+          {
+            "name": "D",
+            "value": "D"
+          },
+          {
+            "name": "E",
+            "value": "E"
+          }
+        ],
+        "name": "rank",
+        "description": "The rank of the dungeon.",
+        "required": true
+      },
+      {
+        "name": "image",
+        "description": "A picture of the dungeon gate.",
+        "required": true,
+        "type": 11
+      },
+      {
+        "name": "redgate",
+        "description": "Was it a red gate?",
+        "required": false,
+        "type": 5
+      }
+    ],
+    "name": "dungeon-report",
+    "description": "Report details about a dungeon run.",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "autocomplete": true,
+        "type": 3,
+        "name": "name",
+        "description": "The name of the shadow.",
+        "required": true
+      }
+    ],
+    "name": "shadow",
+    "description": "Get information about a specific shadow.",
+    "type": 1
+  }
+]
