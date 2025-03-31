@@ -1,2 +1,3 @@
-# How to (obtain characters, mounts, raid characters)
-# Majority Based Dungeon Notifcation's (ability to set a channel for Notifcation)
+Update Embed look for shadow command. 
+Update information on newly released shadows as of 02/30/25
+Update Dungeon Report command to match new dungeon rank "SS"
