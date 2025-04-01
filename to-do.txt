@@ -1,3 +1,3 @@
 Update Embed look for shadow command. 
 Update information on newly released shadows as of 02/30/25
-Update Dungeon Report command to match new dungeon rank "SS"
+ Update Dungeon Report command to match new dungeon rank "SS"

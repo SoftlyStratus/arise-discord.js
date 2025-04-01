@@ -67,15 +67,17 @@ module.exports = {
 
             const embed = new EmbedBuilder()
                 .setColor(embedColor)
-                .setTitle(foundShadow.name)
+                .setTitle(`✨ ${foundShadow.name}`)
+                .setDescription(`Detailed information about **${foundShadow.name}** shadow, showcasing its stats and attributes.`)
                 .setThumbnail(foundShadow.imageUrl)
                 .addFields(
                     { name: '📍 Obtain Location', value: foundShadow.obtainLocation, inline: true },
-                    { name: '⭐ Rarity', value: foundShadow.rarity, inline: true },
-                    { name: '🔑 Obtainable', value: foundShadow.obtainable, inline: true }, // Added this line
-                    { name: '💪 DPS Range at Max Level', value: foundShadow.dpsRange || 'N/A' },
+                    { name: '⭐ Rarity', value: `**${foundShadow.rarity}**`, inline: true },
+                    { name: '🔑 Obtainable', value: foundShadow.obtainable, inline: true },
+                    { name: '💪 DPS Range at Max Level', value: foundShadow.dpsRange || 'N/A', inline: true }
                 )
-                .setFooter({ text: 'Arise Crossover Shadow Info' });
+                .setFooter({ text: 'Arise Crossover Shadow Info' })
+                .setTimestamp(); // Adds the current timestamp
 
             await interaction.reply({ embeds: [embed] });
         } else {

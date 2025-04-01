@@ -14,9 +14,9 @@ module.exports = {
                 return 'No codes available at the moment.';
             }
             return codesArray.map(item => {
-                let codeInfo = `\`${item.code}\``;
+                let codeInfo = `**\`${item.code}\`**`;
                 if (item.reward) {
-                    codeInfo += `: ${item.reward}`;
+                    codeInfo += ` → ${item.reward}`;
                 }
                 if (isExclusive && item.condition) {
                     codeInfo += ` (Condition: ${item.condition})`;
@@ -26,13 +26,16 @@ module.exports = {
         };
 
         const embed = new EmbedBuilder()
-            .setColor(0x0099ff) // You can choose any color
-            .setTitle('Reward Codes')
+            .setColor(0x1E90FF) // A refreshed blue color
+            .setTitle('🎉 Reward Codes')
+            .setDescription('Here are the latest active and exclusive reward codes. Use them wisely to unlock amazing rewards!')
             .addFields(
                 { name: '🔥 Active Codes', value: formatCodes(activeCodes), inline: false },
-                { name: '💎 Exclusive Codes', value: formatCodes(exclusiveCodes, true), inline: false }, // Added true for isExclusive
+                { name: '💎 Exclusive Codes', value: formatCodes(exclusiveCodes, true), inline: false }
             )
-            .setFooter({ text: 'Arise Crossover Reward Codes' });
+            .setThumbnail('https://yourdomain.com/path/to/thumbnail.png') // Replace with an actual URL for a thumbnail image.
+            .setFooter({ text: 'Arise Crossover Reward Codes' })
+            .setTimestamp(); // Adds current timestamp
 
         await interaction.reply({ embeds: [embed] });
     },
