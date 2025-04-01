@@ -6,9 +6,16 @@
     "type": 1
   },
   {
-    "options": [],
+    "options": [
+      {
+        "name": "showexpired",
+        "description": "Check to show expired codes (expired codes are hidden by default).",
+        "required": false,
+        "type": 5
+      }
+    ],
     "name": "codes",
-    "description": "Shows active and exclusive reward codes with their rewards and conditions.",
+    "description": "Shows active, exclusive, and expired reward codes with their rewards and conditions.",
     "type": 1
   },
   {

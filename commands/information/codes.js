@@ -4,10 +4,16 @@ const codesData = require('./codes.json'); // Adjust the path if necessary
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('codes')
-        .setDescription('Shows active and exclusive reward codes with their rewards and conditions.'),
+        .setDescription('Shows active, exclusive, and expired reward codes with their rewards and conditions.')
+        .addBooleanOption(option =>
+            option.setName('showexpired')
+                .setDescription('Check to show expired codes (expired codes are hidden by default).')),
     async execute(interaction) {
         const activeCodes = codesData.activeCodes;
         const exclusiveCodes = codesData.exclusiveCodes;
+        const expiredCodes = codesData.expiredCodes; // newly added array in codes.json
+
+        const showExpired = interaction.options.getBoolean('showexpired') || false;
 
         const formatCodes = (codesArray, isExclusive = false) => {
             if (codesArray.length === 0) {
@@ -36,6 +42,11 @@ module.exports = {
             .setThumbnail('https://yourdomain.com/path/to/thumbnail.png') // Replace with an actual URL for a thumbnail image.
             .setFooter({ text: 'Arise Crossover Reward Codes' })
             .setTimestamp(); // Adds current timestamp
+
+        // Show expired codes only if the user opted in.
+        if (showExpired) {
+            embed.addFields({ name: '⏳ Expired Codes', value: formatCodes(expiredCodes), inline: false });
+        }
 
         await interaction.reply({ embeds: [embed] });
     },

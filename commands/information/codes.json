@@ -13,10 +13,6 @@
         "reward": "3x Rank Up Runes"
       },
       {
-        "code": "DRAGONBLUE",
-        "reward": "Blue Dragon, Exclusive Flying Mount"
-      },
-      {
         "code": "COFFIN",
         "reward": "Coffin Boat, Exclusive Aquatic Mount"
       }
@@ -41,6 +37,12 @@
         "code": "CCTESTER",
         "reward": "",
         "condition": "Content Creator Reward"
+      }
+    ],
+    "expiredCodes": [
+      {
+        "code": "DRAGONBLUE",
+        "reward": "Blue Dragon, Exclusive Flying Mount"
       }
     ]
   }
