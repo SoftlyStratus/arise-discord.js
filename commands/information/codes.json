@@ -18,7 +18,8 @@
       },
       {
         "code": "GZIRU",
-        "reward": "1x G-Rank Ziru"
+        "reward": "1x G-Rank Ziru",
+        "condition": "Must be S-Rank (at minimum) to redeem"
       }
     ],
     "exclusiveCodes": [
