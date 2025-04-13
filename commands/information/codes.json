@@ -17,9 +17,16 @@
         "reward": "Coffin Boat, Exclusive Aquatic Mount"
       },
       {
-        "code": "GZIRU",
-        "reward": "1x G-Rank Ziru",
-        "condition": "Must be S-Rank (at minimum) to redeem"
+        "code": "DUSTS",
+        "reward": "Dust materials"
+      },
+      {
+        "code": "Potions",
+        "reward": "Shadow Potion and Cash Boost"
+      },
+      {
+        "code": "TICKETS",
+        "reward": "200 Legendary Tickets"
       }
     ],
     "exclusiveCodes": [
@@ -48,6 +55,11 @@
       {
         "code": "DRAGONBLUE",
         "reward": "Blue Dragon, Exclusive Flying Mount"
+      },
+      {
+        "code": "GZIRU",
+        "reward": "1x G-Rank Ziru",
+        "condition": "Must be S-Rank (at minimum) to redeem"
       }
     ]
   }
