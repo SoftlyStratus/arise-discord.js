@@ -1,22 +1,6 @@
 {
     "activeCodes": [
       {
-        "code": "BETA",
-        "reward": "250 Cash"
-      },
-      {
-        "code": "UPDATE",
-        "reward": "100 tickets"
-      },
-      {
-        "code": "RUNES",
-        "reward": "3x Rank Up Runes"
-      },
-      {
-        "code": "COFFIN",
-        "reward": "Coffin Boat, Exclusive Aquatic Mount"
-      },
-      {
         "code": "DUSTS",
         "reward": "Dust materials"
       },
@@ -25,8 +9,17 @@
         "reward": "Shadow Potion and Cash Boost"
       },
       {
-        "code": "TICKETS",
-        "reward": "200 Legendary Tickets"
+        "code": "GZIRU",
+        "reward": "1x G-Rank Ziru",
+        "condition": "Must be S-Rank (at minimum) to redeem"
+      },
+      {
+        "code": "EASTER",
+        "reward": "75 Legendary Tickets, 25 Legendary Powder dust, 50 Rare Powder dust, 75 Common Powder dust, and 3 Shadow Potions"
+      },
+      {
+        "code": "ENCHTICKET",
+        "reward": "150 Legendary Tickets"
       }
     ],
     "exclusiveCodes": [
@@ -57,9 +50,24 @@
         "reward": "Blue Dragon, Exclusive Flying Mount"
       },
       {
-        "code": "GZIRU",
-        "reward": "1x G-Rank Ziru",
-        "condition": "Must be S-Rank (at minimum) to redeem"
+        "code": "TICKETS",
+        "reward": "200 Legendary Tickets"
+      },
+      {
+        "code": "COFFIN",
+        "reward": "Coffin Boat, Exclusive Aquatic Mount"
+      },
+      {
+        "code": "BETA",
+        "reward": "250 Cash"
+      },
+      {
+        "code": "UPDATE",
+        "reward": "100 tickets"
+      },
+      {
+        "code": "RUNES",
+        "reward": "3x Rank Up Runes"
       }
     ]
   }
