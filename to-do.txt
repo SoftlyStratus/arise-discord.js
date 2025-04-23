@@ -1,4 +1,14 @@
  Redundancy / Optimizations:
- 
+
  [] - Restructure Shadows to be pulled from a potential 3rd party. 
  [] - Update Codes to be sourced from a 3rd party. 
+
+
+Feature Ideas / Implementations
+
+[] - Changelog/Updates sourced automagically from the "Arise - Crossover" Discord Server
+
+Hosting
+
+[] - Create docker hosted solution for ease of use.
+    [] - Use a .env for security 
