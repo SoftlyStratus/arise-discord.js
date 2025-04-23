@@ -1,3 +1,4 @@
-Update Embed look for shadow command. 
-Update information on newly released shadows as of 02/30/25
- Update Dungeon Report command to match new dungeon rank "SS"
+ Redundancy / Optimizations:
+ 
+ [] - Restructure Shadows to be pulled from a potential 3rd party. 
+ [] - Update Codes to be sourced from a 3rd party. 
