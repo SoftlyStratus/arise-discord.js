@@ -1,10 +1,6 @@
 {
     "activeCodes": [
       {
-        "code": "DUSTS",
-        "reward": "Dust materials"
-      },
-      {
         "code": "Potions",
         "reward": "Shadow Potion and Cash Boost"
       },
