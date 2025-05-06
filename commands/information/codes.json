@@ -1,33 +1,25 @@
 {
     "activeCodes": [
       {
-        "code": "Potions",
-        "reward": "Shadow Potion and Cash Boost"
+        "code": "ALIENS",
+        "reward": "Legendary Tickets, Drops Potion, Cash Boost, Legendary Powder dust, Shadow Potion, and Common Powder dust"
       },
       {
-        "code": "GZIRU",
-        "reward": "1x G-Rank Ziru",
-        "condition": "Must be S-Rank (at minimum) to redeem"
+        "code": "1MLIKES",
+        "reward": "Skeletal Dragon, Legendary Tickets, Drops Potion, Cash Boost, Legendary Powder dust, Shadow Potion, and Common Powder dust"
+      },
+      {
+        "code": "WINTERRAID",
+        "reward": "Legendary Tickets, Legendary Powder dust, Shadow Potion, and Rare Powder dust"
       },
       {
         "code": "EASTER",
         "reward": "75 Legendary Tickets, 25 Legendary Powder dust, 50 Rare Powder dust, 75 Common Powder dust, and 3 Shadow Potions"
       },
       {
-        "code": "DUSTS",
-        "reward": "Dust materials"
-      },
-      {
-        "code": "Potions",
-        "reward": "Shadow Potion and Cash Boost"
-      },
-      {
-        "code": "TICKETS",
-        "reward": "200 Legendary Tickets"
-      },
-      {
-        "code": "ENCHTICKET",
-        "reward": "150 Legendary Tickets"
+        "code": "GZIRU",
+        "reward": "1x G-Rank Ziru",
+        "condition": "Must be S-Rank (at minimum) to redeem"
       }
     ],
     "exclusiveCodes": [
@@ -74,8 +66,24 @@
         "reward": "100 tickets"
       },
       {
+        "code": "DUSTS",
+        "reward": "Dust materials"
+      },
+      {
         "code": "RUNES",
         "reward": "3x Rank Up Runes"
+      },
+      {
+        "code": "ENCHTICKET",
+        "reward": "150 Legendary Tickets"
+      },
+      {
+        "code": "Potions",
+        "reward": "Shadow Potion and Cash Boost"
+      },
+      {
+        "code": "TICKETS",
+        "reward": "200 Legendary Tickets"
       }
     ]
   }
